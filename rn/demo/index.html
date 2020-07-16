@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>React Native Demo</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="https://apps.upcwangying.com/rn/demo/image.57x57.png">
+    <link href="https://apps.upcwangying.com/assets/css/app.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://apps.upcwangying.com/assets/css/demo.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="img-container" onmouseenter="onMouseEnter(this)" onmouseleave="onMouseLeave(this)">
+                <div id="overlay" class="hidden">
+                    <span>扫码隐藏</span>
+                </div>
+                <img src="https://apps.upcwangying.com/rn/demo/id1502813166.png" />
+            </div>
+            <a href="https://apps.apple.com/cn/app/id1502813166" target="_blank" class="title">苹果版下载</a>
+        </div>
+        <div class="container">
+            <div class="img-container" onmouseenter="onMouseEnter(this)" onmouseleave="onMouseLeave(this)">
+                <div id="overlay" class="hidden">
+                    <span>扫码隐藏</span>
+                </div>
+                <img src="https://apps.upcwangying.com/rn/demo/rvzp.png" />
+            </div>
+            <a href="https://www.pgyer.com/rvzp" target="_blank" class="title">Android版下载</a>
+        </div>
+    </div>
+    <div class="terms-wrapper">
+        <a class="terms" href="./terms-and-conditions.html">Terms &amp; Conditions</a>&nbsp;&nbsp;<a href="mailto:me@upcwangying.com">Contact me</a>
+    </div>
+</body>
+<script type="text/javascript">
+    function onMouseEnter(ele) {
+        const overlay = ele.firstElementChild;
+        overlay.className = "overlay";
+    }
+
+    function onMouseLeave(ele) {
+        const overlay = ele.firstElementChild;
+        overlay.className = "hidden";
+    }
+</script>
+</html>

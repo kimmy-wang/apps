@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>compileBitcode</key>
+	<true/>
+	<key>destination</key>
+	<string>export</string>
+	<key>manifest</key>
+	<dict>
+		<key>appURL</key>
+		<string>https://apps.upcwangying.com/flutter/demo/1.0.0/FlutterDemo.ipa</string>
+		<key>displayImageURL</key>
+		<string>https://apps.upcwangying.com/flutter/demo/image.57x57.png</string>
+		<key>fullSizeImageURL</key>
+		<string>https://apps.upcwangying.com/flutter/demo/image.512x512.png</string>
+	</dict>
+	<key>method</key>
+	<string>ad-hoc</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>com.upcwangying.apps.flutter.demo</key>
+		<string>flutter-demo-ah</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>B885A35FAAC7AC920E7A12BAD6A0AD25DFCC6B56</string>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>teamID</key>
+	<string>43V9N6VW8L</string>
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
+</dict>
+</plist>

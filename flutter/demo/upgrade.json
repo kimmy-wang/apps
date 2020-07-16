@@ -1,0 +1,8 @@
+{
+    "testflight": false,
+    "version": "1.0.0",
+    "build": 7,
+    "title": "升级测试",
+    "url": "https://apps.upcwangying.com/flutter/demo/default.png",
+    "description": "1. 测试. \n2. test."
+}
