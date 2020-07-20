@@ -8,9 +8,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.png"/>
     <link href="/assets/css/app.css" rel="stylesheet" type="text/css" media="all" />
+    <script src="/assets/js/common.js"></script>
 </head>
 
-<body>
+<body id="body" class="light">
     <h1>React Native Examples</h1>
     <ol>
         <li>
@@ -18,5 +19,8 @@
         </li>
     </ol>
 </body>
-
+<span class="btn"><button onclick="toggleTheme()" id="btn">黑暗模式</button></span>
+<script>
+  load()
+</script>
 </html>
