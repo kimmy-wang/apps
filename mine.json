@@ -1,0 +1,23 @@
+{
+    "status": 200,
+    "source": "source",
+    "sortBy": "sortBy",
+    "articles": [
+        {
+            "author": "author3",
+            "title": "title3",
+            "description": "description3",
+            "url": "url3",
+            "urlToImage": "urlToImage3",
+            "publishedAt": "publishedAt3"
+        },
+        {
+            "author": "author4",
+            "title": "title4",
+            "description": "description4",
+            "url": "url4",
+            "urlToImage": "urlToImage4",
+            "publishedAt": "publishedAt4"
+        }
+    ]
+}
