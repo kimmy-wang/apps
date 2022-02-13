@@ -2,6 +2,7 @@
     "status": 200,
     "source": "source",
     "sortBy": "sortBy",
+    "count": 60,
     "articles": [
         {
             "author": "author",
